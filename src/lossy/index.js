@@ -1,7 +1,5 @@
-import Canvas from "./canvas";
-import Display from "./display";
+import _Canvas from "./canvas";
+import _Display from "./display";
 
-export default {
-    Canvas,
-    Display
-}
+export const Canvas = _Canvas;
+export const Display = _Display;

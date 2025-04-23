@@ -1,3 +1,6 @@
-import sd from "./index"
+import { Canvas, Display } from "./index"
 
-window.SecureDraw = sd;
+window.SecureDraw = {
+    Canvas,
+    Display,
+}
