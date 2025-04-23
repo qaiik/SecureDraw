@@ -1,0 +1,4 @@
+#!/bin/bash
+
+esbuild src/lossy/index_common.js --bundle --minify --format=iife --outfile=dist/SecureDraw.min.js && esbuild src/lossy/index.js --format=esm --bundle --minify --outfile=dist/SecureDraw.module.min.js && esbuild src/lossless/index_common.js --bundle --minify --format=iife --outfile=dist/sd-lossless.min.js && esbuild src/lossless/index.js --format=esm --bundle --minify --outfile=dist/sd-lossless.module.min.js
+
