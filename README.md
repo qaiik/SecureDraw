@@ -125,6 +125,6 @@ Overall, SecureDraw is mostly reliable, but faces some challenges:
 * Double encoding:
   * Secure draw always keeps both a binary and text log format for every single image class, which may present memory or computation issues.  
 * Ocassional strange behavior:
-    * While mostly patched, I've noted a few instances where a random image of 1 brush size scribbles has failed violation for seemingly no reason, but this isn't common.
+    * While mostly patched, I've noted a few instances where a random image of 1 brush size scribbles has failed validation for seemingly no reason, but this isn't common.
  
 <br/>-winter 4/22/25-21:40
